@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+
+}
+/*General*/
+.sect{
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    border-bottom: 10px solid #222222;
+}
+.desc{
+    width: 600px;
+    margin: auto;
+}
+
+
+header{
+    background-color: transparent;
+    padding: 1rem 0;
+    position: fixed;
+    width: 100%;
+
+}
+.nav-wrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+
+}
+.n-logo{
+    width: 10%;
+}
+
+.sign-btn{
+    background-color: #E50914;
+    padding: 10px;
+    border-radius: 10px;
+    width: 10%;
+    
+
+}
+
+/*section one*/
+
+.section-one{
+    background-image: url(images/firstsectionpicture.jpg);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+.content{
+    font-size: 1.5rem;
+    color: white;
+}
+input{
+
+}
+/*section two*/
+
+.tv-pic{
+    width: 85%;
+}
+
+/*section three*/
+.stranger-things{
+    width: 85%;
+}
+
+
+/*section five*/
+
+.overthemoon{
+    width: 85%;
+}
+/*section six*/
+.section-six{
+    margin: 0 auto;
+    padding: 50px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    border-bottom: 10px solid #222222;
+}
+.box{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    width: 60%;
+    margin: 0 auto;
+    padding: 15px;
+    background-color: #303030;
+    color: white;
+}
+.bigpapa{
+    padding: 40px 0;
+}
